@@ -442,6 +442,25 @@ font-variant: all-small-caps;
     }
 }
 
+@media(max-width: 1000px){
+    .hits__box-item:first-of-type{
+        grid-column: span 5 !important;
+        width: 100%;
+    }
+
+    .hits__box-item:nth-last-of-type(2){
+        grid-column: span 5;
+        grid-row: span 1;
+        width: 100%;
+    }
+
+    .hits__box-item:last-of-type{
+        grid-column: span 5;
+        width: 100%;
+    }
+}
+
+
 @media(max-width: 900px){
     .footer__box{
         flex-direction: column;
