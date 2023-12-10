@@ -520,4 +520,9 @@ font-variant: all-small-caps;
         margin-top: 30px;
         justify-content: center;
     }
+
+    .news__item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
