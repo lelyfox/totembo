@@ -169,6 +169,7 @@ box-shadow: 7px 7px 10px var(--gray);
 font-family: 'MR';
 font-size: 15px;
 font-weight: 400;
+text-align: center;
 }
 
 .hits__group-text{
@@ -177,6 +178,7 @@ font-family: 'MB';
 font-size: 15px;
 font-weight: 700;
 text-transform: uppercase;
+text-align: center;
 }
 
 .hits__group-text3{
@@ -186,6 +188,7 @@ font-size: 22px;
 font-weight: 700;
 line-height: 17px;
 text-transform: uppercase;
+text-align: center;
 }
 
 .hits__group-price{
@@ -195,6 +198,7 @@ font-size: 15px;
 font-weight: 400;
 line-height: 19px;
 text-transform: uppercase;
+text-align: center;
 }
 
 .hits__item-group{
@@ -202,6 +206,7 @@ text-transform: uppercase;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -505,9 +510,7 @@ font-variant: all-small-caps;
     .hits__box-item:nth-last-of-type(2) .hits__item-img{
         width: 50%;
     }
-}
 
-@media(max-width: 500px){
     .news__item-title{
         text-align: center;
     }
@@ -522,7 +525,12 @@ font-variant: all-small-caps;
     }
 
     .news__item{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hits__item-group{
+        justify-content: center;
     }
 }
