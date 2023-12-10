@@ -213,7 +213,7 @@ text-align: center;
 
 .leader__box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(355px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     grid-auto-rows: minmax(485px, auto);
     gap: 24px;
 }
@@ -539,5 +539,32 @@ font-variant: all-small-caps;
 
     .contacts__adress{
         text-align: center;
+    }
+
+    .leader__group-text{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .leader__group-title{
+        font-size: 15px;
+    }
+
+    .leader__group-price{
+        font-size: 15px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .leader__text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .hits__box-item:nth-last-of-type(2){
+        padding: 0 15px;
     }
 }
