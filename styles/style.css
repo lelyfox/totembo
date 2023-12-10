@@ -491,6 +491,7 @@ font-variant: all-small-caps;
 
     .contacts__box{
         align-items: center;
+        justify-content: center;
     }
 
     .totembo__list{
@@ -513,10 +514,12 @@ font-variant: all-small-caps;
 
     .news__item-title{
         text-align: center;
+        font-size: 20px;
     }
 
     .news__item-text{
         text-align: center;
+        font-size: 15px;
     }
 
     .news__item-box{
