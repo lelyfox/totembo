@@ -507,10 +507,17 @@ font-variant: all-small-caps;
     }
 }
 
-@media(max-width: 400px){
-    .news__item{
-        align-items: center;
-        justify-content: center;
+@media(max-width: 500px){
+    .news__item-title{
+        text-align: center;
     }
 
+    .news__item-text{
+        text-align: center;
+    }
+
+    .news__item-box{
+        margin-top: 30px;
+        justify-content: center;
+    }
 }
