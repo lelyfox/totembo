@@ -536,4 +536,8 @@ font-variant: all-small-caps;
     .hits__item-group{
         justify-content: center;
     }
+
+    .contacts__adress{
+        text-align: center;
+    }
 }
